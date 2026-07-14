@@ -6385,6 +6385,32 @@ impl<F: BufFactory> Connection<F> {
         stream.is_readable()
     }
 
+    /// Returns the number of received-but-unread bytes buffered for a stream.
+    ///
+    /// This is a cheap (`O(1)`) upper bound on the amount of unread data: it is
+    /// computed as the difference between the largest offset ever received and
+    /// the lowest unread offset, so it may over-count when there are gaps in
+    /// the received data. It is intended for sizing a receive buffer, where
+    /// over-counting simply means allocating slightly more than strictly
+    /// needed.
+    ///
+    /// `max_off()` is always `>=` `off_front()` (the lowest unread offset can
+    /// never exceed the largest offset ever received), so the subtraction never
+    /// underflows; `saturating_sub` upholds that invariant defensively rather
+    /// than relying on it to avoid a panic. The `usize` cast may truncate on
+    /// 32-bit platforms, but the sole caller clamps the result to a small
+    /// receive-buffer bound, so a truncated value is harmless.
+    ///
+    /// Returns 0 if the stream does not exist.
+    pub fn stream_readable_len(&self, stream_id: u64) -> usize {
+        match self.streams.get(stream_id) {
+            Some(s) =>
+                s.recv.max_off().saturating_sub(s.recv.off_front()) as usize,
+
+            None => 0,
+        }
+    }
+
     /// Returns the next stream that can be written to.
     ///
     /// Note that once returned by this method, a stream ID will not be returned

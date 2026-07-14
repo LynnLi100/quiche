@@ -5,6 +5,40 @@ use assert_matches::assert_matches;
 use super::test_utils::*;
 use super::*;
 
+/// Tests for the body receive buffer sizing helper.
+mod body_recv_buf_size {
+    use super::*;
+
+    #[test]
+    fn zero_readable_uses_floor() {
+        // Never build a zero-capacity buffer.
+        assert_eq!(body_recv_buf_size(0), MIN_BODY_RECV_BUF_SIZE);
+    }
+
+    #[test]
+    fn small_readable_tracks_size() {
+        assert_eq!(body_recv_buf_size(10), 10);
+        assert_eq!(body_recv_buf_size(1500), 1500);
+    }
+
+    #[test]
+    fn large_readable_caps_at_max() {
+        assert_eq!(
+            body_recv_buf_size(BufFactory::MAX_BUF_SIZE),
+            BufFactory::MAX_BUF_SIZE
+        );
+        // Readable beyond MAX_BUF_SIZE is capped.
+        assert_eq!(
+            body_recv_buf_size(BufFactory::MAX_BUF_SIZE + 1),
+            BufFactory::MAX_BUF_SIZE
+        );
+        assert_eq!(
+            body_recv_buf_size(10 * BufFactory::MAX_BUF_SIZE),
+            BufFactory::MAX_BUF_SIZE
+        );
+    }
+}
+
 /// Tests for connection close error metrics recorded by
 /// [`H3Driver::on_conn_close`].
 mod conn_close_metrics {
@@ -314,8 +348,23 @@ mod client_side_driver {
         helper.advance_and_run_loop().unwrap();
         assert_eq!(helper.driver_try_recv_body(&mut from_server).0, vec![7; 10]);
 
-        // The first body read lazily allocated the buffer.
+        // The first body read lazily allocated the buffer, sized to the small
+        // body rather than a fixed 64 KiB. After the read the buffer is split,
+        // so its remaining capacity reflects how much was over-allocated: for a
+        // 10-byte body this is tiny (0 here), whereas a fixed 64 KiB allocation
+        // would leave ~65526 bytes of spare capacity.
         assert!(helper.driver.body_recv_buf.is_some());
+        let spare_cap = helper
+            .driver
+            .body_recv_buf
+            .as_ref()
+            .unwrap()
+            .get_ref()
+            .capacity();
+        assert!(
+            spare_cap < 1024,
+            "body buffer should track the small body size, spare cap = {spare_cap}"
+        );
 
         // Server finishes the stream.
         helper.peer_server_send_body(0, &[8; 10], true).unwrap();
