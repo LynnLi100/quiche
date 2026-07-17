@@ -1,0 +1,30 @@
+tokio-quiche/src/quic/io/worker.rs
+  s_6d40ca94fef121::t_5bb6313bedf166 348-349
+  s_6d40ca94fef121::t_137268a3e3e8ba 297-301
+tokio-quiche/src/http3/driver/mod.rs
+  s_6d40ca94fef121::t_0471a4cf78ee55 463
+  s_6d40ca94fef121::t_a91f22e0542a0c 119-121,124-131,133-137,140,143-158,160-168
+  s_6d40ca94fef121::t_715ebf92ab8a1a 1324-1328,1330-1342,1344-1353,1356-1362
+  s_6d40ca94fef121::t_64fefee0e8bee4 410-422
+  s_6d40ca94fef121::t_c1693e0c110160 423,464,1322
+tokio-quiche/src/quic/connection/mod.rs
+  s_6d40ca94fef121::t_e45ab8713d6e85 697-709
+tokio-quiche/src/http3/driver/tests.rs
+  s_6d40ca94fef121::t_354cfe1508c742 2202-2210,2216-2222,2224,2228-2238,2240-2245,2247,2251-2252,2254-2258,2260-2264,2266-2273,2275-2279,2282-2283,2285-2289,2291-2306,2309-2310,2312-2320,2322-2331,2333-2335,2338-2339,2341
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5944df89b34bd0610594b013bbf6f1cd70e8c8cc",
+  "prompts": {},
+  "sessions": {
+    "s_6d40ca94fef121": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08f2a3360ffekADKGsVoc3MQV7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}
