@@ -1,0 +1,35 @@
+quiche/src/lib.rs
+  s_bf02e3bef9e9f7::t_3118bc5ae31253 6552,6559-6566
+  s_bf02e3bef9e9f7::t_e97b47f210e3bb 6570-6571
+  s_303425572f6bfd::t_94cf257b4f42d7 6551,6553-6558,6567-6569,6572-6576
+quiche/src/tests.rs
+  s_303425572f6bfd::t_b76708f0054395 4465-4497
+tokio-quiche/src/http3/driver/mod.rs
+  s_303425572f6bfd::t_4dd583c3b952d7 117-132,541-548,551-553,559-563,565
+tokio-quiche/src/http3/driver/tests.rs
+  s_303425572f6bfd::t_5334847e3623b5 8-41,351-355,357-367
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "48c01b32237a48d6014ba418d7adc423e2bd757a",
+  "prompts": {},
+  "sessions": {
+    "s_303425572f6bfd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08e1ecbcaffedsGYty5WVNPhYW",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    },
+    "s_bf02e3bef9e9f7": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08e23f02cffeTWy0VsYrUYNkF7",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
