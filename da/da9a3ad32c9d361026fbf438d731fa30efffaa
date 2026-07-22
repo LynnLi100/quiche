@@ -1,0 +1,46 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_49ac8a28d339b6::t_71a26088ca76a0 1071-1073
+  s_49ac8a28d339b6::t_5e7b2aaf2044d1 378-382,427,568-569,573,583,585-586,596,600-601,1074
+  s_c07ff6f3164ba6::t_5ccc19d4f73a3b 1058-1070
+  s_345e1cd8c152f2::t_6aec08b12a336a 123-129,131,133-139,383-386,428-430,558-559,561-567,580
+tokio-quiche/src/http3/driver/tests.rs
+  s_49ac8a28d339b6::t_5486275e3b0c1e 293-367,293-303,305-308,311-315,317-318,321-325,327,330-367,373,385-454,875,878-879,881-882,884-885,887,891,895,901,910,914-915,918,921,925-927
+  s_c07ff6f3164ba6::t_d4606835a07117 870-874,876-877,880,883,886,888-890,892-894,896-900,902-909,911-913,916-917,919-920,922-924,928
+  s_345e1cd8c152f2::t_e7b0b6d40041ed 12-13,17,22-23,28-47,49-50
+tokio-quiche/src/http3/driver/test_utils.rs
+  s_49ac8a28d339b6::t_c7332d934a3189 280-281
+tokio-quiche/src/http3/settings.rs
+  s_345e1cd8c152f2::t_02319c08b71f35 64-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "dada9a3ad32c9d361026fbf438d731fa30efffaa",
+  "prompts": {},
+  "sessions": {
+    "s_345e1cd8c152f2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0819782adffehGCt0jhqXC6vC4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_49ac8a28d339b6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0829f7fc5ffeZuSAM5082sSK3U",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_c07ff6f3164ba6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0786f70a1ffez0sJV9prmLEV5j",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
