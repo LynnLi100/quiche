@@ -1,0 +1,33 @@
+quiche/src/lib.rs
+  s_e1ca34f7ebf6a5::t_d263bf259cb84c 6388-6413
+quiche/src/tests.rs
+  s_e1ca34f7ebf6a5::t_eb640747407888 4432-4464
+tokio-quiche/src/http3/driver/mod.rs
+  s_38267e9392b591::t_d5b5fd15dc7971 117-140,549-558,561-563,569-573,575
+tokio-quiche/src/http3/driver/tests.rs
+  s_38267e9392b591::t_40eeafb4b52011 8-53,367-372,374-384
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6bc027dda7c6c6f83b747d2d0e9a6b53f7c05197",
+  "prompts": {},
+  "sessions": {
+    "s_38267e9392b591": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0756d18caffeqfPl9POWQOdd68",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_e1ca34f7ebf6a5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_075acbf29ffeDK8hfT1hl4aR7X",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
