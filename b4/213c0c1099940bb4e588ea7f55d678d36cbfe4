@@ -1,0 +1,19 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_bdc3e9b8af1b56::t_ea9900a797196d 550-557,564-566,568-574
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b4213c0c1099940bb4e588ea7f55d678d36cbfe4",
+  "prompts": {},
+  "sessions": {
+    "s_bdc3e9b8af1b56": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0708be303ffeibyX4OR5WYL5ri",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
