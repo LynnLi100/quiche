@@ -1,0 +1,70 @@
+quiche/src/lib.rs
+  s_e1ca34f7ebf6a5::t_d263bf259cb84c 6407-6408,6410-6414
+quiche/src/tests.rs
+  s_e1ca34f7ebf6a5::t_eb640747407888 4432-4464
+tokio-quiche/src/http3/driver/mod.rs
+  s_38267e9392b591::t_d5b5fd15dc7971 117-127,132-133,141,151,157-158,583-585,589,597
+  s_49ac8a28d339b6::t_71a26088ca76a0 1084-1086
+  s_49ac8a28d339b6::t_5e7b2aaf2044d1 395-399,444,581-582,598-599,609,613-614,1087
+  s_c07ff6f3164ba6::t_5ccc19d4f73a3b 1071-1083
+  s_345e1cd8c152f2::t_6aec08b12a336a 133
+  s_38267e9392b591::t_a70c219fda7b40 128-131,134-140,142-150,152-156,400-403,445-447,576,577-580
+tokio-quiche/src/http3/driver/tests.rs
+  s_38267e9392b591::t_40eeafb4b52011 8-11,14-16,18-23,25,27-34,36-39,72,75-78,393,398-404,407
+  s_49ac8a28d339b6::t_5486275e3b0c1e 317-391,317-327,329-332,335-339,341-342,345-349,351,354-391,396,408-448,452-453,455-478,899,902-903,905-906,908-909,911,915,919,925,934,938-939,942,945,949-951
+  s_c07ff6f3164ba6::t_d4606835a07117 894-898,900-901,904,907,910,912-914,916-918,920-924,926-933,935-937,940-941,943-944,946-948,952
+  s_345e1cd8c152f2::t_e7b0b6d40041ed 29-31,36-38
+  s_38267e9392b591::t_07fb9d0735b771 12-13,17,24,26,35,40-71,73-74
+tokio-quiche/src/http3/driver/test_utils.rs
+  s_49ac8a28d339b6::t_c7332d934a3189 280-281
+tokio-quiche/src/http3/settings.rs
+  s_38267e9392b591::t_6a6ac8616d2546 64-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6e1014f29f352f5a849cb4413f3e4ead56e90bbb",
+  "prompts": {},
+  "sessions": {
+    "s_345e1cd8c152f2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0819782adffehGCt0jhqXC6vC4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_38267e9392b591": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0756d18caffeqfPl9POWQOdd68",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_49ac8a28d339b6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0829f7fc5ffeZuSAM5082sSK3U",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_c07ff6f3164ba6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0786f70a1ffez0sJV9prmLEV5j",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_e1ca34f7ebf6a5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_075acbf29ffeDK8hfT1hl4aR7X",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
