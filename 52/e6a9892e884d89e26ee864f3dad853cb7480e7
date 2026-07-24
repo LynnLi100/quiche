@@ -1,0 +1,37 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_bdc3e9b8af1b56::t_ea9900a797196d 550-557,564-566,568-574
+quiche/src/stream/recv_buf.rs
+  s_b3a28ed5cf884e::t_d53ffe1636d52e 425-429,431-432,444,446-449,657-665
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "52e6a9892e884d89e26ee864f3dad853cb7480e7",
+  "prompts": {},
+  "sessions": {
+    "s_b3a28ed5cf884e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_06cabab28ffew3nCyeR7G7S7k0",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_bdc3e9b8af1b56": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0708be303ffeibyX4OR5WYL5ri",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_d447b26d60d8a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_070270227ffehlG3hJinBZEu7z",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
