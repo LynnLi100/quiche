@@ -1,0 +1,19 @@
+tokio-quiche/AGENTS.md
+  s_d8e2bbf216051d::t_0953c6115f791d 38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "998a0e84e292960e7d40718cc4b8b475699f9a3a",
+  "prompts": {},
+  "sessions": {
+    "s_d8e2bbf216051d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07fcd2b3affeifGj1ylqWHGMHA",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}

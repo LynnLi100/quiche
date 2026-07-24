@@ -1,0 +1,19 @@
+quiche/src/lib.rs
+  s_303425572f6bfd::t_1f3ac23bac366e 8001-8005
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "76e5eec6d59cb0dbc11a3d03dd450962a24f947b",
+  "prompts": {},
+  "sessions": {
+    "s_303425572f6bfd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08e1ecbcaffedsGYty5WVNPhYW",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}

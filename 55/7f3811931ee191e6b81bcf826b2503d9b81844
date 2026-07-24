@@ -1,0 +1,21 @@
+quiche/src/recovery/congestion/recovery.rs
+  s_303425572f6bfd::t_b8ed64a78771da 560,588-589
+quiche/src/recovery/gcongestion/recovery.rs
+  s_303425572f6bfd::t_b8ed64a78771da 735,764-765
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "557f3811931ee191e6b81bcf826b2503d9b81844",
+  "prompts": {},
+  "sessions": {
+    "s_303425572f6bfd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08e1ecbcaffedsGYty5WVNPhYW",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}

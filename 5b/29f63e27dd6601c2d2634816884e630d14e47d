@@ -1,0 +1,19 @@
+tokio-quiche/src/quic/io/worker.rs
+  s_2961f52ac7c2ba::t_154f7f3862d7b0 94-96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5b29f63e27dd6601c2d2634816884e630d14e47d",
+  "prompts": {},
+  "sessions": {
+    "s_2961f52ac7c2ba": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_07fcbc45cffegYSNZE5GHuahTM",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}

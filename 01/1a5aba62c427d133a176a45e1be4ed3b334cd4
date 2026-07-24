@@ -1,0 +1,24 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_72ffa66c2effc5::t_529c8d9b179f19 390-394
+  s_72ffa66c2effc5::t_447cd26268f2e3 438
+  s_72ffa66c2effc5::t_99208e76707743 123-140
+tokio-quiche/src/http3/driver/tests.rs
+  s_72ffa66c2effc5::t_6231327605a731 2283,2295
+  s_72ffa66c2effc5::t_43276e3a3ed0fe 2311
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "011a5aba62c427d133a176a45e1be4ed3b334cd4",
+  "prompts": {},
+  "sessions": {
+    "s_72ffa66c2effc5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_096a92713ffeaoexENEKDIYxCg",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}

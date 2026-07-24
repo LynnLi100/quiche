@@ -1,0 +1,17 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0dd4b18531b12cd5805a2129710fda54496475be",
+  "prompts": {},
+  "sessions": {
+    "s_303425572f6bfd": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_08e1ecbcaffedsGYty5WVNPhYW",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Linlin Li <linlin@cloudflare.com>"
+    }
+  }
+}
