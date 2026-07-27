@@ -1,0 +1,48 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_38267e9392b591::t_015b9963d6ff32 403
+  s_38267e9392b591::t_a70c219fda7b40 128-131,134-140,142-150,152-157,401-402,404,446-451,578-580,586,588-589
+  s_b3a28ed5cf884e::t_47acc3ecd52517 581-585,587
+tokio-quiche/src/http3/settings.rs
+  s_38267e9392b591::t_6a6ac8616d2546 64-75
+tokio-quiche/src/http3/driver/tests.rs
+  s_38267e9392b591::t_07fb9d0735b771 12-13,17,24,26,35,40-71,73-74
+  s_128ba6c0be3f52::t_804967e423955c 79-104
+quiche/src/lib.rs
+  s_128ba6c0be3f52::t_92baf203a7b1d7 6388-6389,6392-6395,6400-6401,6403,6407,6409
+quiche/src/stream/recv_buf.rs
+  s_128ba6c0be3f52::t_f21c419d828103 423,425-430,441,444,627,633,635,638,640,642-643
+quiche/src/tests.rs
+  s_128ba6c0be3f52::t_43e638c90d3dc1 4441,4447-4448,4453,4458,4463
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "91bef12f4fc9a9aeb7afc2fb30f2cb705674e86f",
+  "prompts": {},
+  "sessions": {
+    "s_128ba6c0be3f52": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_05c21c24bffeqyvWSKcyVm1rhf",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_38267e9392b591": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0756d18caffeqfPl9POWQOdd68",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_b3a28ed5cf884e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_06cabab28ffew3nCyeR7G7S7k0",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
