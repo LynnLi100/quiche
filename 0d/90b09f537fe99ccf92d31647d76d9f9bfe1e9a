@@ -1,0 +1,19 @@
+tokio-quiche/src/http3/driver/mod.rs
+  s_b3a28ed5cf884e::t_47acc3ecd52517 581-585,587
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0d90b09f537fe99ccf92d31647d76d9f9bfe1e9a",
+  "prompts": {},
+  "sessions": {
+    "s_b3a28ed5cf884e": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_06cabab28ffew3nCyeR7G7S7k0",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
