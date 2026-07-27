@@ -1,0 +1,33 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b6bd02e7c7a0f07fc07f8fdf9dbd7cec5f56c3ae",
+  "prompts": {},
+  "sessions": {
+    "s_47bca4c2857506": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_05b9cb4fdffedfbosxUPCby7Cz",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_a946b8d987e081": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_071eef6eeffezLgtJArWWM8oJS",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_d447b26d60d8a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_070270227ffehlG3hJinBZEu7z",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
