@@ -1,0 +1,59 @@
+tokio-quiche/src/quic/io/worker.rs
+  s_d447b26d60d8a6::t_bb00cd5122e10b 89-95,143-149,172-177,244-247,386-393,399-404,440-452,479-482,529,532,560,909-919,937-940,957-964,1004-1005,1009,1217-1220
+  s_a946b8d987e081::t_edca29973320f1 80-88,96-142,150-171,178-196,198,205,216-217,225-226,234-235,405,453-454,464,478,483,528,530-531,533,936,941,1002-1003,1221-1223,1320-1382
+  s_26f06cfa391bef::t_3eaa8b949b6643 197,199-204,206-215,218-224,227-233,236,559,561-562,565,627-629,966-979,990,997
+tokio-quiche/src/quic/router/mod.rs
+  s_d447b26d60d8a6::t_91b1192d555ffa 341
+tokio-quiche/src/settings/quic.rs
+  s_d447b26d60d8a6::t_aac89cbafc8fd8 353-366,383-387
+tokio-quiche/src/settings/config.rs
+  s_d447b26d60d8a6::t_a43a1e86513514 59,114
+tokio-quiche/tests/integration_tests/mod.rs
+  s_47bca4c2857506::t_a15cc3ba31e9eb 124-154
+tokio-quiche/src/quic/connection/mod.rs
+  s_d447b26d60d8a6::t_5218404f52e388 683
+tokio-quiche/src/quic/raw.rs
+  s_d447b26d60d8a6::t_b5617576ca1789 116-117
+tokio-quiche/src/metrics/mod.rs
+  s_d447b26d60d8a6::t_356d3ca8fbbdfd 292-302
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "40b4ab09738c6c534d6e478a03914f1ee256a6f7",
+  "prompts": {},
+  "sessions": {
+    "s_26f06cfa391bef": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_05aa83199ffeEyFdSobbDugKdR",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_47bca4c2857506": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_05b9cb4fdffedfbosxUPCby7Cz",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_a946b8d987e081": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_071eef6eeffezLgtJArWWM8oJS",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    },
+    "s_d447b26d60d8a6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_070270227ffehlG3hJinBZEu7z",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Lynn Li <lynnli0610@gmail.com>"
+    }
+  }
+}
